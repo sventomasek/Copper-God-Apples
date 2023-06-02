@@ -1,6 +1,7 @@
 package net.sventomasek.arrowattachments;
 
 import net.fabricmc.api.ModInitializer;
+import net.sventomasek.arrowattachments.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +11,6 @@ public class ArrowAttachments implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
