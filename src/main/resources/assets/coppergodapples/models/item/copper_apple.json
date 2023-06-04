@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "arrowattachments:item/ice_fruit"
+    "layer0": "coppergodapples:item/copper_apple"
   }
 }

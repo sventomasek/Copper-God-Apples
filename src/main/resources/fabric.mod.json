@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "arrowattachments",
+  "id": "coppergodapples",
   "version": "${version}",
 
-  "name": "Arrow Attachments",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Copper God Apples",
+  "description": "A mod that makes copper actually useful! Now you can craft copper apples!",
   "authors": [
     "Sven Tomasek"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": " "
+    "sources": "https://github.com/sventomasek/Arrow-Attachments"
   },
 
   "license": "MIT License",
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.sventomasek.arrowattachments.ArrowAttachments"
+      "net.sventomasek.coppergodapples.CopperGodApples"
     ],
     "client": [
-      "net.sventomasek.arrowattachments.ArrowAttachmentsClient"
+      "net.sventomasek.coppergodapples.CopperGodApplesClient"
     ]
   },
   "mixins": [
-    "arrowattachments.mixins.json"
+    "coppergodapples.mixins.json"
   ],
 
   "depends": {
