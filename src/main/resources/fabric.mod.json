@@ -4,17 +4,17 @@
   "version": "${version}",
 
   "name": "Copper God Apples",
-  "description": "A mod that makes copper actually useful! Now you can craft copper apples!",
+  "description": "A mod that aims to add more usefulness to Copper by adding multiple Copper Apples to Minecraft.",
   "authors": [
     "Sven Tomasek"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/sventomasek/Arrow-Attachments"
+    "homepage": "https://modrinth.com/mod/copper-god-apples",
+    "sources": "https://github.com/sventomasek/Copper-God-Apples"
   },
 
-  "license": "MIT License",
-  "icon": "assets/modid/icon.png",
+  "license": "All Rights Reserved",
+  "icon": "assets/coppergodapples/icon.png",
 
   "environment": "*",
   "entrypoints": {

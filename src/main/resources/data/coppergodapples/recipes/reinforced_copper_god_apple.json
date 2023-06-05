@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@#@",
+    "#*#",
+    "@#@"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:copper_block"
+    },
+    "*": {
+      "item": "coppergodapples:copper_god_apple"
+    },
+    "@": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "coppergodapples:reinforced_copper_god_apple"
+  }
+}
