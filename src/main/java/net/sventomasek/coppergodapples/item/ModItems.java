@@ -6,6 +6,7 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.sventomasek.coppergodapples.CopperGodApples;
@@ -28,7 +29,7 @@ public class ModItems {
             ItemGroups.FOOD_AND_DRINK
     );
 
-    private static Item registerItem(String name, Item item, ItemGroup group){
+    private static Item registerItem(String name, Item item, RegistryKey<ItemGroup> group){
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
         return Registry.register(Registries.ITEM, new Identifier(CopperGodApples.MOD_ID, name), item);
     }
